@@ -65,6 +65,12 @@ object Build : BuildType({
 object Build2 : BuildType({
     name = "Build (2)"
 
+    artifactRules = """
+        target/original-plaindoll-0.0.3.jar
+        target/plaindoll-0.0.3.jar
+    """.trimIndent()
+    publishArtifacts = PublishMode.SUCCESSFUL
+
     vcs {
         root(DslContext.settingsRoot)
     }
