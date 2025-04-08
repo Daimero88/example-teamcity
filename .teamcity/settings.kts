@@ -115,7 +115,7 @@ object HttpsGithubComDaimero88exampleTeamcityGitRefsHeadsMaster : GitVcsRoot({
     url = "https://github.com/Daimero88/example-teamcity.git"
     branch = "refs/heads/master"
     authMethod = password {
-        userName = "Daimero88"
-        password = "credentialsJSON:47351dea-c967-4902-b8d2-a2abd4e4a63a"
+        userName = "xxx"
+        password = "xxx"
     }
 })
